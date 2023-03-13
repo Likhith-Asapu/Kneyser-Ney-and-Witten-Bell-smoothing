@@ -1,6 +1,9 @@
-## Description 
+## Kneyser-Ney and Witten Bell smoothing in Python 
 
-Implementation of Kneyser-Ney and Witten Bell smoothing techniques from scratch in Python
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+
+This repository contains the code for the implementation of Kneyser-Ney and Witten Bell smoothing techniques from scratch in Python.
 
 ## Instructions
 
