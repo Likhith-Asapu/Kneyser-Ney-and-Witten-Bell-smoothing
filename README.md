@@ -11,13 +11,13 @@ To run the code make sure the given packages are installed  `re,collections,rand
 
 The code can be run by entering the following command:
 
-`$ python3 language_model.py <n_value> <smoothing type> <path to corpus> `
+`$ python3 language_model.py <n_value> <smoothing_type> <path_to_corpus> `
 
 <n_value> - Value of N-gram or N-gram count(eg. 2 for using bigrams)
 
-<smoothing type> - Enter k to use Kneyser-Ney smoothing and w to use Witten bell smoothing
+<smoothing_type> - Enter k to use Kneyser-Ney smoothing and w to use Witten bell smoothing
 
-<path to corpus> - Replace this with path to the file containing training data.
+<path_to_corpus> - Replace this with path to the file containing training data.
 
 You are allowed to enter only one sentence at a time.
 
@@ -27,7 +27,7 @@ The perplexity scores can be found by running the perp_score.py file.
 
 `$ python3 perp_score.py <n_value> <smoothing type> <path to corpus>  <type>`
 
-<type> - values = ("test" / "train") - Refers to whether test data should be used for perplexity calculation or train data
+< type > - values = ("test" / "train") - Refers to whether test data should be used for perplexity calculation or train data
 
 Example - `python3 perp_score.py 4 w medical-corpus.txt test` 
 
