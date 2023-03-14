@@ -13,11 +13,11 @@ The code can be run by entering the following command:
 
 `$ python3 language_model.py <n_value> <smoothing type> <path to corpus> `
 
-<n_value> - Value of N-gram or N-gram count(eg. 2 for using bigrams)
+$<n_value>$ - Value of N-gram or N-gram count(eg. 2 for using bigrams)
 
-<smoothing type> - Enter k to use Kneyser-Ney smoothing and w to use Witten bell smoothing
+$<smoothing type>$ - Enter k to use Kneyser-Ney smoothing and w to use Witten bell smoothing
 
-<path to corpus> - Replace this with path to the file containing training data.
+$<path to corpus>$ - Replace this with path to the file containing training data.
 
 You are allowed to enter only one sentence at a time.
 
