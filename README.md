@@ -17,7 +17,7 @@ The code can be run by entering the following command:
 
 **<smoothing_type>** - Enter k to use Kneyser-Ney smoothing and w to use Witten bell smoothing
 
-$<path_to_corpus>$ - Replace this with path to the file containing training data.
+**<path_to_corpus>** - Replace this with path to the file containing training data.
 
 You are allowed to enter only one sentence at a time.
 
